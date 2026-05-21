@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+    <title>Anaum Shereef</title>
+
+</head>
+
+<body class="color-g1">
+    <div class="flex flex-col items-center mt-30">
+        <div class="wave-container">
+            <h1 class="wave-text font-gaegu text-7xl text-n1">
+                <span>A</span><span>n</span><span>a</span><span>u</span><span>m</span>
+                <span>S</span><span>h</span><span>e</span><span>r</span><span>e</span><span>e</span><span>f</span>
+            </h1>
+        </div>
+
+        <div class="buttons inline-flex mt-5 font-gaegu">
+            <button class="hover:font-bold text-n1 py-2 px-4 rounded-l text-xl" id="home-btn">
+                home
+            </button>
+            <button class="hover:font-bold text-n1 py-2 px-4 rounded-r text-xl" id="sketchbook-btn">
+                sketchbook
+            </button>
+            <button class="hover:font-bold text-n1 py-2 px-4 rounded-r text-xl" id="sketchbook-btn">
+                github
+            </button>
+
+        </div>
+        <div id="home" class="mt-10 font-gaegu flex flex-col gap-10">
+            <div class="w-150 p-6 border rounded-2xl">
+                <h5 class="mb-3 text-2xl font-bold text-heading">About</h5>
+                <p class="text-body">Hi! I am a graduate in Computer Science....... I
+                    enjoy
+                    drawing
+                    cartoons, playing piano, baking and watching movies.</p>
+            </div>
+            <div class="w-150 p-6 border rounded-2xl">
+                <h5 class="mb-3 text-2xl font-bold text-heading">Tools and Languages</h5>
+
+                <li class="list-none"> Languages: Python, HTML, CSS, Bash</li>
+                <li class="list-none"> Frameworks: Vue.js, Django, Tailwind CSS</li>
+                <li class="list-none"> Developer Tools: Visual Studio Code, Figma</li>
+
+            </div>
+            <div class="w-150 p-6 border rounded-2xl">
+                <h5 class="mb-3 text-2xl font-bold text-heading">Contact</h5>
+
+                <li class="list-none"> Email: anaum.ts@gmail.com</li>
+            </div>
+
+        </div>
+
+        <div class="hidden" id="sketchbook">
+            <div class=" max-w-5xl mx-auto mt-10 columns-1 md:columns-2 ml-10 mr-10 lg:columns-3" id="grid">
+            </div>
+        </div>
+
+    </div>
+    <div id="lightbox" class="hidden fixed inset-0 bg-black/10 flex flex-col items-center justify-center">
+        <p id="lightbox-caption" class="text-black text-center mt-2"></p>
+        <img id="lightbox-img" src="" class="max-h-screen max-w-screen p-10" />
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
