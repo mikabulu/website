@@ -15,10 +15,10 @@ document.querySelector('#sketchbook-btn').addEventListener('click', () => {
 
 let currentIndex = 0;
 const images = [];
-const captions = ['caption 1', 'caption 2', 'caption 3', 'caption 4', 'caption 5', 'caption 6', 'caption 7', 'caption 8'];
+const captions = []; //will add 
 
 const grid = document.querySelector('#grid');
-const totalImages = 8;
+const totalImages = 12;
 
 for (let i = 1; i <= totalImages; i++) {
     const img = document.createElement('img');
