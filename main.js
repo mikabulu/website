@@ -18,7 +18,7 @@ const images = [];
 const captions = []; //will add 
 
 const grid = document.querySelector('#grid');
-const totalImages = 12;
+const totalImages = 7;
 
 for (let i = 1; i <= totalImages; i++) {
     const img = document.createElement('img');
