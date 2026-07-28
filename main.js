@@ -1,5 +1,5 @@
 document.querySelectorAll('.wave-text span').forEach((span, i) => {
-    span.style.animationDelay = `${i * 0.1}s`;
+    span.style.animationDelay = `${i * 0.05}s`;
 });
 
 
